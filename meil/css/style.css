@@ -236,25 +236,14 @@ img {
 .product {
   padding-top: 200px;
 }
-.product .content {
-  background: #d8bc41;
-  padding: 0 100px;
-  border-radius: 50px;
-  text-align: center;
-}
+
 .product .entry {
   background: #fff;
   border-radius: 0 0 22px 22px;
   padding-bottom: 20px;
   box-shadow: 0 12px 30px -15px rgba(0, 0, 0, 0.2);
 }
-.product .entry .content-img {
-  background: #ff8f68;
-  top: -80px;
-  position: relative;
-  border-radius: 22px 22px 0 0;
-  margin-bottom: -63px;
-}
+
 .product .entry .content-img img {
   top: -100px;
   position: relative;

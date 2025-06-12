@@ -25,6 +25,8 @@
 
   });
 
+  
+/*
   // product filterizr
   $('.filtr-container').imagesLoaded( function() {
       var filterizr = $('.filtr-container').filterizr();
@@ -45,7 +47,7 @@
               enabled: true
           }
       });
-  });
+  }); */
 
 
   // swiper slider
