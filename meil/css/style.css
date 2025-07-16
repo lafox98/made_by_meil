@@ -233,8 +233,40 @@ img {
 /* ------------------------------
   product
 ---------------------------------*/
+
+/* Canh giữa các nút lựa chọn */
+.product-filter {
+  display: flex;                 /* Sử dụng Flexbox */
+  justify-content: center;       /* Căn giữa theo chiều ngang */
+  align-items: center;           /* Căn giữa theo chiều dọc (nếu cần thiết) */
+  margin-bottom: 20px;           /* Tạo khoảng cách phía dưới */
+}
+
+.filter-button {
+  margin: 0 10px;                /* Tạo khoảng cách giữa các nút */
+  padding: 10px 20px;            /* Thêm padding cho nút */
+  background-color: #d8bc41;     /* Màu nền cho nút */
+  color: #fff;                   /* Màu chữ */
+  border: none;                  /* Loại bỏ viền */
+  border-radius: 22px;           /* Bo tròn góc của nút */
+  cursor: pointer;               /* Thêm hiệu ứng khi hover */
+  font-weight: 600;               /* Đậm chữ */
+  transition: 0.3s;               /* Thêm hiệu ứng chuyển đổi */
+}
+
+.filter-button:hover {
+  background-color: #ff8f68;     /* Màu nền thay đổi khi hover */
+}
+
+
+
 .product {
-  padding-top: 200px;
+  padding-top: 50px;
+}
+
+/* Giảm khoảng cách giữa các sản phẩm trong cùng một hàng */
+.entry {
+  margin-bottom: 50px;  /* Thêm margin dưới cho các sản phẩm */
 }
 
 .product .entry {
@@ -261,16 +293,15 @@ img {
   color: #2a2a2a;
 }
 .product .entry-second {
-  margin-top: 138px;
+  margin-top: 100px;
   position: relative;
-  top: 65px;
 }
 
 /* ------------------------------
   why-us
 ---------------------------------*/
 .why-us {
-  padding-top: 200px;
+  padding-top: 100px;
 }
 .why-us ul li {
   padding: 5px 0;
