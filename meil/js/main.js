@@ -98,3 +98,27 @@
 
 })();
 
+// ================= SẢN PHẨM FILTER =================
+$(document).ready(function () {
+
+  /** Hàm hiển thị nhóm */
+  function showCategory(cat){
+    // 1. đổi trạng thái nút
+    $('.filter-button').removeClass('active')
+                       .filter('[data-category="'+cat+'"]')
+                       .addClass('active');
+
+    // 2. ẩn tất cả & hiện nhóm
+    $('.product-item').hide();
+    $('.product-item.'+cat).fadeIn(150);
+  }
+
+  // mặc định: jelly-tea
+  showCategory('jelly-tea');
+
+  // click nút lọc
+  $('.filter-button').on('click', function(){
+    let cat = $(this).data('category');
+    showCategory(cat);
+  });
+});
