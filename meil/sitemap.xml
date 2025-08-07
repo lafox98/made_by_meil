@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Trang chủ / Landing page -->
+  <url>
+    <loc>https://madebymeil.com/</loc>
+    <lastmod>2025-08-07</lastmod>  <!-- ngày cập nhật cuối, định dạng YYYY-MM-DD -->
+    <changefreq>monthly</changefreq><!-- tần suất ước tính bạn chỉnh sửa -->
+    <priority>1.0</priority>        <!-- mức ưu tiên cao nhất -->
+  </url>
+
+</urlset>
